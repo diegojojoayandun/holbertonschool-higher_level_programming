@@ -3,11 +3,11 @@ Python
 
 ## Description
 
-This is the first project for the second trimester of foundations section at Holberton School, it inmmerse us in the worl of Python with some Shell scripting.
+This is the Python language setion as part of second trimester of foundations at Holberton School, it inmmerse us in the world of Python with Shell scripting.
 
 ## Learning Objetives
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google a lot of topics about Python Language:
 
 ### General
 Why Python programming is awesome
