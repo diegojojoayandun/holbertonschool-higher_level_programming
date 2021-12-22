@@ -16,5 +16,7 @@ Directories | Description
 ## Author
 
 Diego Fernando Jojoa Yandún - C16 Holberton School Colombia
+
 email: diego.jojoa@hotmail.com
+
 Twitter: https://twitter.com/Xcryp70r
