@@ -1,26 +1,17 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if not roman_string or type(roman_string) != str:
+    if not str(roman_string).isalpha():
         return 0
-
-    suma = 0
-    new_str = ""
-
-    _dict = {
-                ord('I'): '1',
-                ord('V'): '5', ord('X'): '10',
-                ord('L'): '50', ord('C'): '100',
-                ord('D'): '500', ord('M'): '1000'}
-
-    translation = roman_string.maketrans(_dict)
-
-    for c in roman_string:
-        new_str += c + ","
-
-    new_str = new_str.translate(translation)
-    new_str = new_str.split(",")
-
-    for i in new_str:
-        if (i != ''):
-            suma += int(i)
-    return suma
+    if not roman_string:
+        return 0
+    num_rom = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    result = 0
+    for i in range(len(roman_string)):
+        if i < len(roman_string) - 1:
+            if num_rom[roman_string[i]] >= num_rom[roman_string[i + 1]]:
+                result += num_rom[roman_string[i]]
+            if num_rom[roman_string[i]] < num_rom[roman_string[i + 1]]:
+                result -= num_rom[roman_string[i]]
+        else:
+            result += num_rom[roman_string[i]]
+    return result
