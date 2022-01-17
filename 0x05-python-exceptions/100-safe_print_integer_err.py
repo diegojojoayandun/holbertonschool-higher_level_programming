@@ -1,12 +1,8 @@
 #!/usr/bin/python3
-'''Safe printing of integers list'''
-
 
 import sys
 
-
 def safe_print_integer_err(value):
-    ''' prints an integer with "{:d}".format().'''
     try:
         print('{:d}'.format(value))
         return True
