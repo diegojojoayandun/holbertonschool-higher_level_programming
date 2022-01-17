@@ -1,5 +1,7 @@
 # 0x05. Python - Exceptions
 
+An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program's instructions. In general, when a Python script encounters a situation that it cannot cope with, it raises an exception. An exception is a Python object that represents an error.
+
 ## Table of contents
 Files | Description
 ----- | -----------
@@ -10,6 +12,10 @@ Files | Description
 [4-list_division.py](./4-list_division.py) | Python function that divides element by element 2 lists
 [5-raise_exception.py](./5-raise_exception.py) | Python function that raises a type exception
 [6-raise_exception_msg.py](./6-raise_exception_msg.py) | Python function that raises a name exception with a message
+
+## Information:
+
+[1](https://www.tutorialspoint.com/python/python_exceptions.htm)
 
 [Diego Fernando Jojoa Yandún](https://github.com/diegojojoayandun)
 
