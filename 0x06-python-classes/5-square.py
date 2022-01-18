@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Represents a square."""
+
 class Square:
     """Represents a square.
     Private instance attribute: size:
@@ -8,7 +10,6 @@ class Square:
     Public instance method: def area(self).
     Public instance method: def my_print(self).
     """
-
     def __init__(self, size=0):
         """Initializes the data."""
         self.__size = size
@@ -21,7 +22,7 @@ class Square:
     @size.setter
     def size(self, value):
         """Sets the size to a value."""
-        if not isinstance(value, int):
+        if type(value) is not int:
             raise TypeError("size must be an integer")
         elif value < 0:
             raise ValueError("size must be >= 0")
