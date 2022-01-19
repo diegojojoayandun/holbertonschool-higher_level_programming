@@ -1,6 +1,6 @@
 # holbertonschool-higher_level_programming
 
-![alt text](https://w7.pngwing.com/pngs/481/959/png-transparent-django-python-computer-programming-programming-language-computer-software-python-logo-text-logo-banner.png)
+![alt text](https://www.academiaweb.ca/wp-content/uploads/2020/04/python-academiawe-banner.png)
 
 ## Description
 
