@@ -1,6 +1,6 @@
 # holbertonschool-higher_level_programming
 
-![alt text](https://www.kurindeta.com/wp-content/uploads/2019/05/Python-Banner.png)
+![alt text](https://w7.pngwing.com/pngs/481/959/png-transparent-django-python-computer-programming-programming-language-computer-software-python-logo-text-logo-banner.png)
 
 ## Description
 
