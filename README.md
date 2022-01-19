@@ -1,7 +1,6 @@
-Python
 # holbertonschool-higher_level_programming
 
-![alt text](https://camo.githubusercontent.com/9fd57290c645df1a178a7f1a864f787192aa6df0a2848983c322c63e307cf242/68747470733a2f2f72616a697670616e6469742e66696c65732e776f726470726573732e636f6d2f323031332f30322f707974686f6e2e706e67]
+![alt text](https://www.kurindeta.com/wp-content/uploads/2019/05/Python-Banner.png]
 
 
 
