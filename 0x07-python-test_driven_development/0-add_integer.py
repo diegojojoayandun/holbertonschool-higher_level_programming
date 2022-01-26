@@ -25,4 +25,3 @@ def add_integer(a, b=98):
 
     return (a + b)
 
-print(add_integer(float('inf'), 0))
