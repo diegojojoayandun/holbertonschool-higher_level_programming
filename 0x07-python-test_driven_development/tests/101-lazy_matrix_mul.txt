@@ -24,7 +24,7 @@ Now test it:
 
     >>> print(lazy_matrix_mul([[1, 2]], 9))
     Traceback (most recent call last):
-    ValueError: matmul: Input operand 0 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
+    ValueError: matmul: Input operand 1 does not have enough dimensions (has 0, gufunc core with signature (n?,k),(k,m?)->(n?,m?) requires 1)
 
     >>> print(lazy_matrix_mul("Hello", [[1, 2]]))
     Traceback (most recent call last):
@@ -64,4 +64,4 @@ Now test it:
 
     >>> print(lazy_matrix_mul([[9, 4, 4], [2, 8, 2]], [[1, 2], [4, 9]]))
     Traceback (most recent call last):
-    shapes (2,3) and (2,2) not aligned: 3 (dim 1) != 2 (dim 0)
+    ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 2 is different from 3)
