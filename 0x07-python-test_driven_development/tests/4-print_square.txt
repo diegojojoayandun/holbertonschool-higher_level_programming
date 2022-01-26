@@ -1,0 +1,99 @@
+==============================
+The `4-print_square.py` module
+==============================
+
+Using `print_square`
+-------------------
+
+import 'print_square' from the '4-print_square.py' module:
+
+>>> print_square = __import__('4-print_square').print_square
+
+Checking Normal Output:
+
+>>> print_square(3)
+###
+###
+###
+
+>>> print_square(8)
+########
+########
+########
+########
+########
+########
+########
+########
+
+Checking case 0:
+
+>>> print_square(0)
+
+Checking case 1:
+
+>>> print_square(1)
+#
+
+Checking case negative number:
+
+>>> print_square(-2)
+Traceback (most recent call last):
+    ...
+ValueError: size must be >= 0
+
+Checking case None:
+
+>>> print_square(None)
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+Checking case list:
+
+>>> print_square([0, 1])
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+Checking case No argument:
+
+>>> print_square()
+Traceback (most recent call last):
+    ...
+TypeError: print_square() missing 1 required positional argument: 'size'
+
+Checking case pass NO assigned variable:
+
+>>> print_square(size)
+Traceback (most recent call last):
+    ...
+NameError: name 'size' is not defined
+
+Checking case string:
+
+>>> print_square("hola mundo!")
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+Checking case char:
+
+>>> print_square('c')
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+Checking case positive float number:
+
+>>> print_square(2.12)
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+Checking case negative float number:
+
+>>> print_square(-2.12)
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
