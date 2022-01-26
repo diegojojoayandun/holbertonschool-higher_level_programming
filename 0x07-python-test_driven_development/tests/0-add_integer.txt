@@ -22,8 +22,8 @@ True
 
 Checking regular addition:
 
->>> add_integer(2, 3)
-5
+>>> add_integer(1, 2)
+3
 
 Checking positive with negative:
 
