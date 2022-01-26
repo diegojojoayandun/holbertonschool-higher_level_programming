@@ -27,7 +27,7 @@ My name is John Smith
 Checking only first_name:
 
 >>> say_my_name("Bob")
-My name is Bob
+My name is Bob 
 
 Checking firts_name as number:
 
@@ -55,7 +55,7 @@ My name is  Holberton
 Checking both empty:
 
 >>> say_my_name("", "")
-My name is
+My name is  
 
 Checking non arguments:
 
