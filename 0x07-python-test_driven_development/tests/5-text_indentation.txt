@@ -65,6 +65,12 @@ Importing the function from the module:
     <BLANKLINE>
 
 
+>>> text_indentation("Hello\n\nThere.")
+    Hello
+    <BLANKLINE>
+    There.
+    <BLANKLINE>
+
 Checking if is empty:
 >>> text_indentation("")
 
