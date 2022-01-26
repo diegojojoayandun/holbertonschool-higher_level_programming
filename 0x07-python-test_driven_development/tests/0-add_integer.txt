@@ -55,6 +55,7 @@ Checking both float:
 >>> add_integer(2.45, 3.1)
 5
 
+
 Checking super long int:
 
 >>> add_integer(999999999999999999999999999999, 1)
@@ -101,3 +102,15 @@ Checking more than 2 args:
 >>> add_integer(1, 2, 3)
 Traceback (most recent call last):
 TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+
+Checking Long integer:
+
+>>> add_integer(1000e1000)
+Traceback (most recent call last):
+OverflowError: cannot convert float infinity to integer
+
+Checking for NaN:
+
+>>> add_integer(float('nan'))
+Traceback (most recent call last):
+ValueError: cannot convert float NaN to integer
