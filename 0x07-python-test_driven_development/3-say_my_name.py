@@ -2,6 +2,7 @@
 """Module say my name
 """
 
+
 def say_my_name(first_name, last_name=""):
     """
         print the first name and last name
