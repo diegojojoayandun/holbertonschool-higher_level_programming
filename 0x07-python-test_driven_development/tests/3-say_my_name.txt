@@ -55,7 +55,7 @@ My name is  Holberton
 Checking both empty:
 
 >>> say_my_name("", "")
-My name is  
+My name is
 
 Checking non arguments:
 
