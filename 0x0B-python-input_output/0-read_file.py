@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""module 0.read_file - use of IO read
-
+"""module 0-read_file
     Args: filename: the path or name of a file
 """
 
