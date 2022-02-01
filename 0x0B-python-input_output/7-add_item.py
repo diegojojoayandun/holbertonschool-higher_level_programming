@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module 9-add_item"""
+"""Module 7-add_item"""
 
 import sys
 import os.path

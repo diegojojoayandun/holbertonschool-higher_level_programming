@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module 8-load_from_json_file
+"""Module 6-load_from_json_file
 """
 
 
