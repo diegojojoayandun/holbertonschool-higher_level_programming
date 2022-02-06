@@ -4,11 +4,9 @@
 
 class Square:
     """Represents a square.
-
     Private instance attribute: size:
         - property def size(self)
         - property setter def size(self, value)
-
     Instantiation with optional size.
     Public instance method: def area(self).
     """
