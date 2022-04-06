@@ -48,7 +48,7 @@ $ export NODE_PATH=/usr/lib/node_modules
  ` Notes:  Request module has been deprecated since February 2020 - the team is considering alternative to replace this module - however, it’s a really simple and powerful module for practicing web-scraping in JavaScript (and still used a lot in the industry).
 ## Tasks
 ### 0. Readme
-mandatory         Progress vs Score  Task Body Write a script that reads and prints the content of a file.
+Task Body Write a script that reads and prints the content of a file.
 * The first argument is the file path
 * The content of the file must be read in  ` utf-8 `
 * If an error occurred during the reading, print the error object
@@ -74,7 +74,7 @@ guillaume@ubuntu:~/0x14$
 * File:  ` 0-readme.js `
  Self-paced manual review  Panel footer - Controls
 ### 1. Write me
-mandatory         Progress vs Score  Task Body Write a script that writes a string to a file.
+Task Body Write a script that writes a string to a file.
 * The first argument is the file path
 * The second argument is the string to write
 * The content of the file must be written in  ` utf-8 `
@@ -92,7 +92,7 @@ guillaume@ubuntu:~/0x14$
 * File:  ` 1-writeme.js `
  Self-paced manual review  Panel footer - Controls
 ### 2. Status code
-mandatory         Progress vs Score  Task Body Write a script that display the status code of a   ` GET `   request.
+Task Body Write a script that display the status code of a   ` GET `   request.
 * The first argument is the URL to request ( ` GET ` )
 * The status code must be printed like this:  ` code: <status code> `
 * You must use the module  ` request `
@@ -110,7 +110,7 @@ guillaume@ubuntu:~/0x14$
 * File:  ` 2-statuscode.js `
  Self-paced manual review  Panel footer - Controls
 ### 3. Star wars movie title
-mandatory         Progress vs Score  Task Body Write a script that prints the title of a Star Wars movie where the episode number matches a given integer.
+Task Body Write a script that prints the title of a Star Wars movie where the episode number matches a given integer.
 * The first argument is the movie ID
 * You must use the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q)
  with the endpoint  ` https://swapi-api.hbtn.io/api/films/:id `
@@ -129,7 +129,7 @@ guillaume@ubuntu:~/0x14$
 * File:  ` 3-starwars_title.js `
  Self-paced manual review  Panel footer - Controls
 ### 4. Star wars Wedge Antilles
-mandatory         Progress vs Score  Task Body Write a script that prints the number of movies where the character “Wedge Antilles” is present.
+Task Body Write a script that prints the number of movies where the character “Wedge Antilles” is present.
 * The first argument is the API URL of the [Star wars API](https://intranet.hbtn.io/rltoken/2sAQZ5ZAsYKRYccrnNAK2Q)
 :  ` https://swapi-api.hbtn.io/api/films/ `
 * Wedge Antilles is character ID  ` 18 `  - your script must use this ID for filtering the result of the API
@@ -146,7 +146,7 @@ guillaume@ubuntu:~/0x14$
 * File:  ` 4-starwars_count.js `
  Self-paced manual review  Panel footer - Controls
 ### 5. Loripsum
-mandatory         Progress vs Score  Task Body Write a script that gets the contents of a webpage and stores it in a file.
+Task Body Write a script that gets the contents of a webpage and stores it in a file.
 * The first argument is the URL to request
 * The second argument the file path to store the body response
 * The file must be UTF-8 encoded
@@ -171,7 +171,7 @@ guillaume@ubuntu:~/0x14$
 * File:  ` 5-request_store.js `
  Self-paced manual review  Panel footer - Controls
 ### 6. How many completed?
-mandatory         Progress vs Score  Task Body Write a script that computes the number of tasks completed by user id.
+Task Body Write a script that computes the number of tasks completed by user id.
 * The first argument is the API URL:  ` https://jsonplaceholder.typicode.com/todos `
 * Only print users with completed task
 * You must use the module  ` request `
