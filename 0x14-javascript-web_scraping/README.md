@@ -2,13 +2,18 @@
 ## Details
       By Guillaume, CTO at Holberton School          Weight: 1                Ongoing project - started 02-01-2022, must end by 02-02-2022 (in about 16 hours)          - you're done with 0% of tasks.              Checker will be released at 02-01-2022 12:00 PM              QA review fully automated.      ## Resources
 Read or watch :
-* [Working with JSON data](https://intranet.hbtn.io/rltoken/RmDpb2gJfPrMar05QdxYvw)
-
-* [The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco](https://intranet.hbtn.io/rltoken/ibqGcS_YNbtWO8nPIlM2Ug)
-
-* [request module](https://intranet.hbtn.io/rltoken/9L4UYvlIwDVDoObD7zpJZQ)
-
-* [Modern JS](https://intranet.hbtn.io/rltoken/Zf5LCjoTEuIXWWxoH_dGVQ)
+* [Working with JSON data](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+* [The workflow of accessing the attributes of a simply-created JSON object by Jimmy Tran from Cohort 1 - San Francisco](https://medium.com/@vietkieutie/the-workflow-of-accessing-the-attributes-of-a-simply-created-json-object-82a5b33e2319)
+* [request module](https://github.com/request/request)
+* [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
+* [Rules of Standard](https://standardjs.com/rules.html)
+* [semi-standard Documentation](https://github.com/standard/semistandard)
+* [AirBnB style](https://github.com/airbnb/javascript)
+* [request module Documentation](https://github.com/request/request)
+* [Star wars API](https://swapi-api.hbtn.io/)
+* [Twitter API](https://developer.twitter.com/en/docs/api-reference-index)
+* [Application-only authentication](https://developer.twitter.com/en/docs/basics/authentication/overview)
+* [Create an Twitter application here](https://developer.twitter.com/en/apps)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to  [explain to anyone](https://intranet.hbtn.io/rltoken/KGl7tkF5ZHilz24aw3uk_g)
