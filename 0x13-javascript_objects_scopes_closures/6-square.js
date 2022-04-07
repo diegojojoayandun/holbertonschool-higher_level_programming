@@ -14,7 +14,7 @@ class Square extends square {
       let i = 0;
       do {
         i++;
-        console.log('C'.repeat(this.width));
+        console.log('c'.repeat(this.width));
       } while (i < this.height);
     }
   }
