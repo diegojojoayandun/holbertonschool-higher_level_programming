@@ -17,9 +17,25 @@ class Square extends square {
 
   charPrint (c) {
     if (c === undefined) {
-      this.privatePrint('X');
+      for (let i = 0; i < this.height; i++) {
+        let j = 0;
+        for (; j < this.width; j++) {
+          process.stdout.write('X');
+        }
+        if (j === this.width) {
+          console.log('');
+        }
+      }
     } else {
-      this.privatePrint('C');
+      for (let i = 0; i < this.height; i++) {
+        let j = 0;
+        for (; j < this.width; j++) {
+          process.stdout.write('C');
+        }
+        if (j === this.width) {
+          console.log('');
+        }
+      }
     }
   }
 }
