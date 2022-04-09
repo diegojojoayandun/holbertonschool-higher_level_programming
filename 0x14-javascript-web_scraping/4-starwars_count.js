@@ -9,6 +9,6 @@ request(url, (error, response, body) =>
   (error) ? console.error(error) : console.log(characterCount(JSON.parse(body).results)));
 
 function characterCount (jsonResults) {
-  return abc = jsonResults.filter((entries) =>
+  return jsonResults.filter((entries) =>
     entries.characters.filter((urlMatch) => urlMatch.includes(characterId)).length).length;
 }
