@@ -8,15 +8,15 @@ request(url, (error, response, body) =>
   (error) ? console.error(error) : console.log(computeTasks(JSON.parse(body))));
 
 function computeTasks (jsonTasks) {
-  const completed = {};
-  for (const i in jsonTasks) {
-    if (jsonTasks[i].completed === true) {
-      if (completed[jsonTasks[i].userId] === undefined) {
-        completed[jsonTasks[i].userId] = 1;
-      } else {
-        completed[jsonTasks[i].userId]++;
-      }
+  const completeTask = jsonTasks.filter((entries) => entries.completed === true);
+  const dict = {};
+
+  for (const i in completeTask) {
+    if (!dict[completeTask[i].userId]) {
+      dict[completeTask[i].userId] = 1;
+    } else {
+      dict[completeTask[i].userId]++;
     }
   }
-  return completed;
+  return dict;
 }
