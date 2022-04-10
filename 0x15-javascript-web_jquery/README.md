@@ -15,7 +15,7 @@
 * [jQuery Ajax](https://learn.jquery.com/ajax/)
 
 ### 1. With JQuery
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that updates the text color of the   ` <header> `    element to red (  ` #FF0000 `  ):
+mandatory         Progress vs Score  Task Body Write a JavaScript script that updates the text color of the   ` <header> `    element to red (  ` #FF0000 `  ):
 * You can’t use  ` document.querySelector `  to select the HTML tag
 * You must use the JQuery API
 Please test with this HTML file in your browser:
@@ -46,7 +46,8 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 1-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 2. Click and turn red
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that updates the text color of the    ` <header> `   element to red (  ` #FF0000 `  ) when the user clicks on the tag   ` DIV#red_header `  :
+mandatory         Progress vs Score  Task Body Write a JavaScript script that updates the text color of the
+` <header> `   element to red (  ` #FF0000 `  ) when the user clicks on the tag   ` DIV#red_header `  :
 * You can’t use  ` document.querySelector `  to select the HTML tag
 * You must use the JQuery API
 Please test with this HTML file in your browser:
@@ -78,7 +79,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 2-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 3. Add `.red` class
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that adds the class   ` red `   to the   ` <header> `   element  when the user clicks on the tag   ` DIV#red_header `
+mandatory         Progress vs Score  Task Body Write a JavaScript script that adds the class   ` red `   to the   ` <header> `   element  when the user clicks on the tag   ` DIV#red_header `
 * You can’t use  ` document.querySelector `  to select the HTML tag
 * You must use the JQuery API
 Please test with this HTML file in your browser:
@@ -115,7 +116,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 3-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 4. Toggle classes
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that toggles the class of the   ` <header> `   element  when the user clicks on the tag   ` DIV#toggle_header `  :
+mandatory         Progress vs Score  Task Body Write a JavaScript script that toggles the class of the   ` <header> `   element  when the user clicks on the tag   ` DIV#toggle_header `  :
 * The  ` <header> `  element must always have one class:  ` red `  or  ` green ` , never both in the same time and never empty.
 * If the current class is  ` red ` , when the user click on  ` DIV#toggle_header ` , the class must be updated to  ` green `  ; and the reverse.
 * You can’t use  ` document.querySelector `  to select the HTML tag
@@ -157,7 +158,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 4-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 5. List of elements
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that adds a   ` <li> `   element to a list when the user clicks on the tag   ` DIV#add_item `  :
+mandatory         Progress vs Score  Task Body Write a JavaScript script that adds a   ` <li> `   element to a list when the user clicks on the tag   ` DIV#add_item `  :
 * The new element must be:  ` <li>Item</li> `
 * The new element must be added to  ` UL.my_list `
 * You can’t use  ` document.querySelector `  to select the HTML tag
@@ -196,7 +197,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 5-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 6. Change the text
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that updates the text of the   ` <header> `   element  to   ` New Header!!! `   when the user clicks on   ` DIV#update_header `
+mandatory         Progress vs Score  Task Body Write a JavaScript script that updates the text of the   ` <header> `   element  to   ` New Header!!! `   when the user clicks on   ` DIV#update_header `
 * You can’t use  ` document.querySelector `  to select the HTML tag
 * You must use the JQuery API
 Please test with this HTML file in your browser:
@@ -230,7 +231,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 6-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 7. Star wars character
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that fetches the character   ` name `   from this URL:   ` https://swapi-api.hbtn.io/api/people/5/?format=json `
+mandatory         Progress vs Score  Task Body Write a JavaScript script that fetches the character   ` name `   from this URL:   ` https://swapi-api.hbtn.io/api/people/5/?format=json `
 * The name must be displayed in the HTML tag  ` DIV#character `
 * You can’t use  ` document.querySelector `  to select the HTML tag
 * You must use the JQuery API
@@ -265,7 +266,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 7-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 8. Star Wars movies
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that fetches and lists the   ` title `   for all movies by using this URL:   ` https://swapi-api.hbtn.io/api/films/?format=json `
+mandatory         Progress vs Score  Task Body Write a JavaScript script that fetches and lists the   ` title `   for all movies by using this URL:   ` https://swapi-api.hbtn.io/api/films/?format=json `
 * All movie titles must be list in the HTML tag  ` UL#list_movies `
 * You can’t use  ` document.querySelector `  to select the HTML tag
 * You must use the JQuery API
@@ -301,7 +302,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 8-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 9. Say Hello!
-          mandatory         Progress vs Score  Task Body Write a JavaScript script that fetches from   ` https://fourtonfish.com/hellosalut/?lang=fr `   and displays the value of   ` hello `   from that fetch in the HTML tag   ` DIV#hello `  .
+mandatory         Progress vs Score  Task Body Write a JavaScript script that fetches from   ` https://fourtonfish.com/hellosalut/?lang=fr `   and displays the value of   ` hello `   from that fetch in the HTML tag   ` DIV#hello `  .
 * The translation of “hello” must be displayed in the HTML tag  ` DIV#hello `
 * You can’t use  ` document.querySelector `  to select the HTML tag
 * You must use the JQuery API
@@ -337,7 +338,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 9-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 10. No jQuery - document loaded
-          #advanced         Progress vs Score  Task Body Write a JavaScript script that updates the text color of the   ` <header> `   element  to red (  ` #FF0000 `  ):
+#advanced         Progress vs Score  Task Body Write a JavaScript script that updates the text color of the   ` <header> `   element  to red (  ` #FF0000 `  ):
 * You must use  ` document.querySelector `  to select the HTML tag
 * You can’t use the jQuery API
 * Note: Your script must be imported from the  ` <head> `  tag, not at the end of the HTML
@@ -368,7 +369,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 100-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 11. List, add, remove
-          #advanced         Progress vs Score  Task Body Write a JavaScript script that adds, removes and clears   ` LI `   elements from a list when the user clicks:
+#advanced         Progress vs Score  Task Body Write a JavaScript script that adds, removes and clears   ` LI `   elements from a list when the user clicks:
 * The new element must be:  ` <li>Item</li> `
 * The new element must be added to  ` UL.my_list `
 * When the user clicks on  ` DIV#add_item ` : a new element is added to the list
@@ -413,7 +414,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 101-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 12. Say hello to everybody!
-          #advanced         Progress vs Score  Task Body Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
+#advanced         Progress vs Score  Task Body Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
 * You should use this API service:  ` https://www.fourtonfish.com/hellosalut/hello/ `
 * The language code will be the value entered in the tag  ` INPUT#language_code `  (ex:  ` es ` ,  ` fr ` ,  ` en `  etc.)
 * The translation must be fetched when the user clicks on  ` INPUT#btn_translate `
@@ -455,7 +456,7 @@ guillaume@ubuntu:~/0x15$
 * File:  ` 102-script.js `
  Self-paced manual review  Panel footer - Controls
 ### 13. And press ENTER
-          #advanced         Progress vs Score  Task Body Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
+#advanced         Progress vs Score  Task Body Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
 * You should use this API service:  ` https://www.fourtonfish.com/hellosalut/hello/ `
 * The language code will be the value entered in the tag  ` INPUT#language_code `  (ex:  ` es ` ,  ` fr ` ,  ` en `  etc.)
 * The translation must be fetched when the user clicks on  ` INPUT#btn_translate `   OR presses  ` ENTER `  when the focus is on  ` INPUT#language_code `
