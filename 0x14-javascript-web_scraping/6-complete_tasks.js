@@ -7,8 +7,8 @@ const url = process.argv[2];
 request(url, (error, response, body) =>
   (error) ? console.error(error) : console.log(computeTasks(JSON.parse(body))));
 
-function computeTasks (jsonTasks) {
-  const completedTask = jsonTasks.filter((entries) => entries.completed === true);
+function computeTasks (oTasks) {
+  const completedTask = oTasks.filter((entries) => entries.completed === true);
   const dict = {};
 
   for (const i in completedTask) {
