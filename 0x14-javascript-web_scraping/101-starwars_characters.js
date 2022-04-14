@@ -1,27 +1,51 @@
 #!/usr/bin/node
+
 const request = require('request');
-const film = process.argv[2];
-let url = 'http://swapi.co/api/people/';
-function filmcharacters (film, url) {
-  request(url, function (err, response, body) {
-    if (err) {
-      console.log(err);
-    } else if (response.statusCode === 200) {
-      let jsonobj = JSON.parse(body);
-      let people = jsonobj.results;
-      for (let i in people) {
-        for (let j in people[i].films) {
-          if (people[i].films[j].includes(film)) {
-            console.log(people[i].name);
-          }
-        }
+
+/*
+let characters = [];
+let dict = {};
+
+function addToDict (url, name) {
+  dict[url] = name;
+}
+
+request('http://swapi.co/api/films/' + process.argv[2], function (error, response, body) {
+  if (error) {
+    console.error(error);
+  }
+  characters = JSON.parse(body).characters
+  characters.forEach(function (url) {
+    request(url, function (error, response, body) {
+      if (error) {
+        console.error(error);
       }
-      if (jsonobj.next !== null) {
-        filmcharacters(film, jsonobj.next);
-      }
-    } else {
-      console.log('An error occured. Status code: ' + response.statusCode);
+      addToDict(url, JSON.parse(body).name);
+    });
+  });
+  characters.forEach(function (item) {
+    console.log(dict[item]);
+  })
+});
+*/
+
+function helpRequest (arr, i) {
+  if (i === arr.length) {
+    return;
+  }
+  request(arr[i], function (error, response, body) {
+    if (error) {
+      console.error(error);
     }
+    console.log(JSON.parse(body).name);
+    helpRequest(arr, i + 1);
   });
 }
-filmcharacters(film, url);
+
+request('https://swapi-api.hbtn.io/api/films/' + process.argv[2], function (error, response, body) {
+  if (error) {
+    console.error(error);
+  }
+  const charac = JSON.parse(body).characters;
+  helpRequest(charac, 0);
+});
