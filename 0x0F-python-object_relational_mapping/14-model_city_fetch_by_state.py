@@ -26,6 +26,6 @@ if __name__ == "__main__":
                                        .order_by(City.id).all()
 
     for state, city in _query:
-        print("{}: ({}) {}".format(state.name, city.id, city.name))
+        print(f"{state.name}: ({city.id}) {city.name}")
 
     session.close()
