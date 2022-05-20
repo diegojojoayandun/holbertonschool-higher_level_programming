@@ -2,10 +2,15 @@
 """
 takes your Github credentials (username and password) and uses the Github API
 """
-if __name__ == '__main__':
+if __name__ == "__main__":
     import requests
-    from requests.auth import HTTPBasicAuth
-    from sys import argv
-    r = requests.get('https://api.github.com/users/{}'.format(argv[1]),
-                     auth=HTTPBasicAuth(argv[1], argv[2]))
-    print(r.json().get('id'))
+    import sys
+
+    r = requests.get('https://api.github.com/user',
+                     auth=(sys.argv[1], sys.argv[2]))
+
+
+    if r.status_code >= 400:
+        print('None')
+    else:
+        print(r.json().get('id'))
